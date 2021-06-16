@@ -19,7 +19,7 @@ struct FlagRaising: View {
             VStack {
                 Spacer()
                 HStack(alignment: .bottom, spacing: 0) {
-                    Rectangle().frame(width: 10)
+                    Rectangle().frame(width: 10).foregroundColor(Color(.black))
                     Text("🇸🇬")
                         .font(.system(size: 100))
                         .padding()
